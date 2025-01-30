@@ -4,70 +4,81 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
-    background-color: #b4b4f8;
+    font-family:"Mulish", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
     color: #333;
-    line-height: 1.6;
-    padding: 20px;
 }
-/* Sección header */
+nav {
+    background-color: #b75d69;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: end;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d8818d;
+    transform: scale(1.05);
+}
 header {
-    background-color: rgb(223, 141, 141);
     color: white;
-    padding: 20px;
-    text-align: center;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    background-color: #ffb5a7;
+    padding-top: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1)
 }
+header img {
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 3px solid #b75d69;
+    margin-bottom: 20px;
+}
+
 header h1 {
-    margin-bottom: 5px;
-    font-size: 36px;
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+header h2 {
+    font-size: 22px;
+    background-color:#b75d69 ;
+    padding: 10px;
+    margin-top: 10px;
+    line-height: 1.8;
+    text-align: center;
 }
 header p {
     font-size: 16px;
-}
-/* Sección sobre mi */
-.about{
-    background-color: antiquewhite;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba (0,0,0,0.1);
-}
-.about h2 {
-    color: brown;
-}
-/* Sección Experiencia Laboral */
-.experience {
-    margin-top: 20px;
-}
-.job {
-    background-color: #b4b4f8;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
-}
-.job h3 {
-    color: chocolate;
-}
-/* Sección Educacion */
-.education {
-    margin-top: 20px;
-}
-.edu {
-    background-color: darkolivegreen;
-    margin-top: 15px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
-}
-/* Sección Habilidades */
-.skills {
-    margin-top: 20px;
-}
-.skill ul {
-    list-style: none;
-    padding: 0;
-}
-.skill li {
-    margin-bottom: 10px;
+    padding: 10px;
+    margin: 8px;
+    color: white;
+    line-height: 1.6; 
 }
