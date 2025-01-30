@@ -43,7 +43,6 @@ nav ul li a:hover {
 header {
     color: white;
     font-size: 16px;
-    position: fixed;
     top: 0;
     left: 0;
     width: 280px;
@@ -54,8 +53,8 @@ header {
 }
 header img {
     align-items: center;
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     border: 3px solid #b75d69;
     margin-bottom: 20px;
@@ -64,7 +63,6 @@ header img {
 header h1 {
     font-size: 28px;
     padding: 10px;
-    margin-top: 20px;
     line-height: 1.8;
 }
 header h2 {
@@ -82,3 +80,25 @@ header p {
     color: white;
     line-height: 1.6; 
 }
+.skills ul li {
+    display: inline-block;
+    background-color: #f5f6fa;
+    padding: 4px 15px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    font-size: 1.0em;
+    color: #5C6BC0;
+}
+
+.Idiomas ul li {
+    display: inline-block;
+    background-color: #f5f6fa;
+    font-size: 1.1em;
+    padding: 10px;
+    margin: 10px 10px;
+    color: #f1f1f1;
+    font-size: 1.0em;
+    border-radius: 20px;
+    color: #5C6BC0;
+}
+
