@@ -1,10 +1,11 @@
-
 1.- Fork https://github.com/Sandy-PainevilosM/Lalo.github.io/commits/main/
 
 Cambios realizados:
 
 Se modifican propiedades en la imagen de perfil en la hoja styles.
 Se modifica el navbar, cambiando el texto de home, por Acerca de Mí.
+
+
 2.- Fork https://github.com/Sandy-PainevilosM/chermosillal.github.io/commits/main/
 
 Cambios realizados:
