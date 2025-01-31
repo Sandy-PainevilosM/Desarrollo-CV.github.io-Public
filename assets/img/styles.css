@@ -109,7 +109,7 @@ main {
     margin-left: 20px;
 
 }
-.content-about, .content-esperience, .content-education, .habilidades-tec{
+.content-about, .content-esperience, .content-education, .habilidades-tec, .content-portafolio{
     margin-bottom: 20px;
 }
 .titulo {
@@ -169,5 +169,43 @@ main {
 .habilidades-tec ul {
     list-style: square;
     padding: 10px;
+    line-height: 1.4;
+}
+.content-portafolio {
+    margin-top: 20px;
+}
+.portafolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.portafolio-item {
+    width: 20%;
+    background-color: #fff;
+    border: 2px solid #b75d69;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-top: 20px;
+    margin: 26px;
+}
+.portafolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portafolio-item img {
+    width: 100%;
+    height: auto;
+}
+.portafolio-item h3 {
+    font-size: 18px;
+    color: #3498db;
+    padding: 15px;
+}
+.portafolio-item p {
+    text-align: justify;
+    font-size: 14px;
+    margin: 4px;
     line-height: 1.4;
 }
