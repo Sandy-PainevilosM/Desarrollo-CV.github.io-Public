@@ -44,9 +44,9 @@ nav ul li a:hover {
     display: flex;
 }
 header {
-    width: 700px;
+    width: 100%;
     background-color: #ffb5a7;
-    padding-top: 20px;
+    padding-top: 50px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 }
 header img {
@@ -57,6 +57,7 @@ header img {
     border: 3px solid #ffffff;
     margin-bottom: 20px;
     margin: 10px;
+    margin-left: 40px;
 }
 
 header h1 {
@@ -76,11 +77,18 @@ header h2 {
     color: white;
 }
 header p {
-    font-size: 16px;
-    padding: 10px;
-    margin: 8px;
+    font-size: 18px;
+    padding: 16px;
+    margin: 10px;
     color: white;
-    line-height: 1.6; 
+    line-height: 2.0; 
+    margin-bottom: 100px;
+}
+.skills {
+    margin-bottom: 20px;
+}
+.skills ul {
+  padding: 10px;
 }
 .skills ul li {
     display: inline-block;
@@ -90,8 +98,21 @@ header p {
     border-radius: 20px;
     font-size: 1.0em;
     color: #5C6BC0;
+    margin-bottom: 10px;
 }
-
+.contact-info a {
+    color: #5C6BC0;
+    text-decoration: none;
+}
+.contact-info span {
+    color: #5C6BC0;
+}
+.idioma {
+    margin: 20px;
+}
+.Idiomas ul {
+    padding: 10px;
+}
 .Idiomas ul li {
     display: inline-block;
     background-color: antiquewhite;
@@ -102,6 +123,7 @@ header p {
     font-size: 1.0em;
     border-radius: 20px;
     color: #5C6BC0;
+    margin-bottom: 10px;
 }
 main {
     flex-grow: 1;
@@ -109,7 +131,7 @@ main {
     margin-left: 20px;
 
 }
-.content-about, .content-esperience, .content-education, .habilidades-tec, .content-portafolio{
+.content-about, .content-esperience, .content-education, .habilidades-tec, .content-portafolio, .footer {
     margin-bottom: 20px;
 }
 .titulo {
@@ -177,18 +199,19 @@ main {
 .portafolio-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
 }
 .portafolio-item {
-    width: 20%;
+    justify-content: space-between;
+    width: 18%;
     background-color: #fff;
     border: 2px solid #b75d69;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    margin-top: 20px;
-    margin: 26px;
+    margin-top: 50px;
+    margin: 28px;
 }
 .portafolio-item:hover {
     transform: translateY(-10px);
@@ -200,12 +223,24 @@ main {
 }
 .portafolio-item h3 {
     font-size: 18px;
-    color: #3498db;
+    color: #b75d69;
     padding: 15px;
 }
 .portafolio-item p {
     text-align: justify;
     font-size: 14px;
-    margin: 4px;
+    margin: 6px;
     line-height: 1.4;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+}
+footer p {
+    color: #b75d69;
+    font-size: 1em;
 }
