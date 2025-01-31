@@ -77,11 +77,11 @@ header h2 {
     color: white;
 }
 header p {
-    font-size: 18px;
+    font-size: 16px;
     padding: 16px;
     margin: 10px;
     color: white;
-    line-height: 2.0; 
+    line-height: 2.4; 
     margin-bottom: 100px;
 }
 .skills {
