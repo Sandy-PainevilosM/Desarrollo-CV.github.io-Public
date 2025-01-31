@@ -109,7 +109,7 @@ main {
     margin-left: 20px;
 
 }
-.content-about, .content-esperience {
+.content-about, .content-esperience, .content-education, .habilidades-tec{
     margin-bottom: 20px;
 }
 .titulo {
@@ -127,5 +127,47 @@ main {
     text-align: justify;
     font-size: 16px;
     padding: 10px;
-    line-height: 1.6;
+    line-height: 1.4;
+}
+.content-esperience {
+    padding: 10px;
+}
+.job p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 8px;
+    line-height: 0.8;
+}
+.job h3 {
+   color: #5C6BC0;
+   padding: 12px;
+}
+.job ul {
+    list-style: square;
+    padding: 10px;
+}
+.job li {
+    line-height: 1.4;
+}
+.edu h3 {
+    color: #5C6BC0;
+    padding: 12px;   
+}
+.edu p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 0.8;
+}
+.edu ul {
+    list-style: square;
+    padding: 10px; 
+}
+.habilidades-tec {
+    padding: 10px;
+}
+.habilidades-tec ul {
+    list-style: square;
+    padding: 10px;
+    line-height: 1.4;
 }
